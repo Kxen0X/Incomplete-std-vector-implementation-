@@ -1,0 +1,13 @@
+﻿  main.cpp
+D:\CPP\Test\Test\Victor.hpp(303,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+      D:\CPP\Test\Test\Victor.hpp(303,13):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\CPP\Test\Test\main.cpp(65,29):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "Victor<Tracker>"
+          D:\CPP\Test\Test\Victor.hpp(300,1):
+          во время компиляции функции-члена класс шаблон "void Victor<Tracker>::erase(size_t)"
+              D:\CPP\Test\Test\main.cpp(74,21):
+              см. первую ссылку на "Victor<Tracker>::erase" в "main"
+  
+  Test.vcxproj -> D:\CPP\Test\x64\Debug\Test.exe
